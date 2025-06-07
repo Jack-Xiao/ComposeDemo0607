@@ -15,8 +15,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "com.tianyejia.composedemo.CucumberTestRunner"
-        testInstrumentationRunnerArguments["cucumberOptions"] = "--glue com.tianyejia.composedemo.cucumber --plugin pretty"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -47,6 +46,7 @@ android {
     sourceSets {
         getByName("androidTest") {
             assets.srcDirs("src/androidTest/assets")
+            resources.srcDirs("src/androidTest/resources")
         }
     }
 }
@@ -67,7 +67,7 @@ dependencies {
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
     androidTestImplementation(libs.cucumber.android)
-    androidTestImplementation(libs.cucumber.java)
+//    androidTestImplementation(libs.cucumber.java)
     androidTestImplementation(libs.androidx.uiautomator)
     androidTestUtil(libs.androidx.test.orchestrator)
     debugImplementation(libs.androidx.ui.tooling)

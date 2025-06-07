@@ -8,7 +8,7 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.9.1"
 activityCompose = "1.10.1"
 composeBom = "2024.09.00"
-cucumber = "4.8.1"
+cucumber = "4.9.0"
 uiautomator = "2.3.0"
 orchestrator = "1.5.1"
 
@@ -28,7 +28,7 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 cucumber-android = { group = "io.cucumber", name = "cucumber-android", version.ref = "cucumber" }
-cucumber-java = { group = "io.cucumber", name = "cucumber-java", version.ref = "cucumber" }
+cucumber-junit-platform-engine = { group = "io.cucumber", name = "cucumber-junit-platform-engine", version.ref = "cucumber" }
 androidx-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version.ref = "uiautomator" }
 androidx-test-orchestrator = { group = "androidx.test", name = "orchestrator", version.ref = "orchestrator" }
 

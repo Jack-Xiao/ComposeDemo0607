@@ -1,7 +1,4 @@
 Feature: Main Screen
-  As a user
-  I want to see the main screen
-  So that I can interact with the application
 
   @smoke
   Scenario: Display welcome message

@@ -9,7 +9,8 @@
       "Bash(cp:*)",
       "Bash(rm:*)",
       "Bash(ls:*)",
-      "Bash(unzip:*)"
+      "Bash(unzip:*)",
+      "Bash(cat:*)"
     ],
     "deny": []
   }
